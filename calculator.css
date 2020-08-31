@@ -1,0 +1,150 @@
+body{
+	background-color: #EBEDEF;
+}
+
+.number:hover{
+	outline: none;
+	border-color:none;
+	color: #48C9B0;
+	background-color:#EBEDEF;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+
+.number{
+	outline: 0px;
+	border: none;
+	color: #626567;
+	background-color:#F7F9F9;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.operator:hover{
+	outline: 0px;
+	border: none;
+	color: #48C9B0;
+	background-color:#34495E;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.operator {
+	outline: 0px;
+	border: none;
+	color: #48C9B0;
+	background-color:#D1F2EB;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	}
+
+#display {
+	outline: 0px;
+	border: none;
+	color: slategrey;
+	background-color:#F7F9F9;
+	border-radius: 50px;
+	width: 325px;
+	height: 80px;
+	float: left;
+	font-size: 40px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+#top_display {
+width: 100%;
+			float: left;
+			padding: 0px;
+			position: relative;
+  			display: inline-block;
+	
+}
+
+.inputRow {
+	width: 80px;
+	float: left;
+	position: relative;
+	font-size: 20px;
+	padding: 0px;
+	margin-right: 2px;
+	margin-top: 2px;
+	
+}
+.clear:hover{
+	outline: 0px;
+	border: none;
+	color: #48C9B0;
+	background-color:#34495E ;
+	border-radius: 50px;
+	width: 160px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.clear {
+	outline: 0px;
+	border: none;
+	color: #FF56A8 ;
+	background-color:#FFD3E9;
+	border-radius: 50px;
+	width: 160px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.backspace:hover{
+	outline: 0px;
+	border: none;
+	color: #48C9B0;
+	background-color:#34495E;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.backspace {
+	outline: 0px;
+	border: none;
+	color: #fff;
+	background-color:#AEB6BF;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
