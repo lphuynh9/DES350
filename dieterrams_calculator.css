@@ -1,0 +1,198 @@
+body{
+	background-color: #EBEDEF;
+}
+
+#myCalculator{
+	margin: auto;
+  	width: 350px;
+}
+
+.line1{
+	border-bottom: 1px solid black;
+	width: 225px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	
+}
+
+
+#top_display {
+	outline: 0px;
+	border: none;
+	color: slategrey;
+	background-color:#F7F9F9;
+	border-radius: 0px;
+	width: 350px;
+	height: 100px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+
+#display{
+	outline: 0px;
+	border: none;
+	color: slategrey;
+	width: 100%;
+	height: 100%;
+	font-size: 40px;
+	padding: 1px;
+	margin: 1px;
+}
+
+.number:hover{
+	outline: none;
+	border-color:none;
+	color: #B45F40;
+	background-color:#EBEDEF;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+
+.number{
+	outline: 0px;
+	border: none;
+	color: #626567;
+	background-color:#F7F9F9;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+
+.operatorA:hover{
+	outline: 0px;
+	border: none;
+	color: #B45F40;
+	background-color:#34495E;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.operatorA{
+	outline: 0px;
+	border: none;
+	color: #626567;
+	background-color:#FFFFFF;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	}
+
+.operator:hover{
+	outline: 0px;
+	border: none;
+	color: #B45F40;
+	background-color:#34495E;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.operator {
+	outline: 0px;
+	border: none;
+	color: #FFFFFF;
+	background-color:#7F8883;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	}
+
+.operatorB:hover{
+	outline: 0px;
+	border: none;
+	color: #B45F40;
+	background-color:#34495E;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.operatorB{
+	outline: 0px;
+	border: none;
+	color: #FFFFFF;
+	background-color:#B45F40;
+	border-radius: 50px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	}
+
+
+
+.inputRow {
+	width: 80px;
+	float: left;
+	position: relative;
+	font-size: 20px;
+	padding: 1px;
+	margin-right: 2px;
+	margin-top: 2px;
+	
+}
+
+.clear:hover{
+	outline: 0px;
+	border: none;
+	color: #B45F40;
+	background-color:#34495E ;
+	border-radius: 50px;
+	width: 160px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
+.clear {
+	outline: 0px;
+	border: none;
+	color: #626567;
+	background-color:#FFFFFF;
+	border-radius: 50px;
+	width: 160px;
+	height: 80px;
+	float: left;
+	font-size: 20px;
+	padding: 1px;
+	margin: 1px;
+	
+}
