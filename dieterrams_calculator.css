@@ -20,8 +20,8 @@ body{
 #top_display {
 	outline: 0px;
 	border: none;
-	color: slategrey;
-	background-color:#F7F9F9;
+	color: #EBEDEF;
+	background-color:#EBEDEF;
 	border-radius: 0px;
 	width: 350px;
 	height: 100px;
@@ -33,7 +33,7 @@ body{
 #display{
 	outline: 0px;
 	border: none;
-	color: slategrey;
+	color: #EBEDEF;
 	width: 100%;
 	height: 100%;
 	font-size: 40px;
