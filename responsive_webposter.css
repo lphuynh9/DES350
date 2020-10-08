@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-.body{
-	background-color: #FEF5E7;
+body{
+	background-color: #fef5e7;
 }
 .header{
 	position: fixed;
@@ -12,6 +12,8 @@
 	font-family: Helvetica Neue LT Std;
 	font-size: 12px;
 	font-weight: lighter;
+	position: fixed;
+	left: 70%;
 	color: #34495e;
 }
 
@@ -27,6 +29,7 @@ p1{
 	font-weight: bold;
 	color: #F26127;
 	letter-spacing: -10px;
+
 }
 
 .title{
@@ -34,10 +37,9 @@ p1{
 	font-size: 21px;
 	font-weight: lighter;
 	color: #34495e;
-	width: 25%;
-	position: relative;
+	position: fixed;
 	left: 115px;
-	top: -90px;
+	top: 50px;
 }
 
 .space{
@@ -68,7 +70,18 @@ p1{
 	font-size: 12px;
 	font-weight: lighter;
 	color: #34495e;
+	position: fixed;
+	bottom: 25px;
+	left: 200px;
+	
 }
+
+
+.principle{
+	height: 150px;
+	width: 75%;
+}
+
 
 p2{
 	margin-left: 25px;
@@ -78,16 +91,21 @@ p2{
 	font-family: Helvetica Neue LT Std;
 	font-size: 36px;
 	font-weight: bold;
+	float: left;
+	height: 100px;
+	margin-right: 10px;
 	color: #F26127;
 }
 
 .column{
 	width: 35%;
 	float: left;
-	margin-left: 10px;
+	margin-left: 105px;
 }
 
 .column2{
+	margin-left: 75px;
+	margin-top: 200px;
 
 }
 
@@ -95,6 +113,7 @@ h1{
 	font-family: Helvetica Neue LT Std;
 	font-size: 21px;
 	color:#F26127;
+	
 }
 
 p{
