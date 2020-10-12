@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-	background-color: #fef5e7;
+	background-color: #000000;
 }
 .header{
 	position: fixed;
@@ -14,7 +14,7 @@ body{
 	font-weight: lighter;
 	position: fixed;
 	left: 70%;
-	color: #34495e;
+	color: white;
 }
 
 p1{
@@ -23,20 +23,38 @@ p1{
 	margin-left: 25px;
 }
 
+.ten:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 100px;
+	font-weight: bold;
+	color: #73ff00;
+	letter-spacing: -10px;
+
+}
 .ten{
 	font-family: Helvetica Neue LT Std;
 	font-size: 100px;
 	font-weight: bold;
-	color: #F26127;
+	color: darkslategray;
 	letter-spacing: -10px;
 
+}
+
+.title:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 21px;
+	font-weight: lighter;
+	color: #73ff00;
+	position: fixed;
+	left: 115px;
+	top: 50px;
 }
 
 .title{
 	font-family: Helvetica Neue LT Std;
 	font-size: 21px;
 	font-weight: lighter;
-	color: #34495e;
+	color: darkslategray;
 	position: fixed;
 	left: 115px;
 	top: 50px;
@@ -48,7 +66,7 @@ p1{
 .dot1{
 	height: 25px;
 	width: 25px;
-	background-color: #F26127;
+	background-color: #73ff00;
 	border-radius: 50%;
 	position: fixed;
 	top: 50px;
@@ -58,7 +76,7 @@ p1{
 .dot2{
 	height: 25px;
 	width: 25px;
-	background-color: #F26127;
+	background-color: #73ff00;
 	border-radius: 50%;
 	position: fixed;
 	top: 85px;
@@ -69,16 +87,21 @@ p1{
 	font-family: Helvetica Neue LT Std;
 	font-size: 12px;
 	font-weight: lighter;
-	color: #34495e;
+	color: white;
 	position: fixed;
 	bottom: 25px;
 	left: 200px;
 	
 }
 
+.principle:hover{
+	height: 175px;
+	width: 75%;
+	background-color: darkgrey;
+}
 
 .principle{
-	height: 150px;
+	height: 175px;
 	width: 75%;
 }
 
@@ -87,16 +110,27 @@ p2{
 	margin-left: 25px;
 }
 
+
+.number:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	height: 150px;
+	margin-right: 10px;
+	color: #73ff00;
+}
+
 .number{
 	font-family: Helvetica Neue LT Std;
 	font-size: 36px;
 	font-weight: bold;
 	float: left;
-	height: 100px;
+	height: 150px;
 	margin-right: 10px;
-	color: #F26127;
+	margin-top: 5px;
+	color: darkslategray;
 }
-
 .column{
 	width: 35%;
 	float: left;
@@ -104,21 +138,25 @@ p2{
 }
 
 .column2{
-	margin-left: 75px;
-	margin-top: 200px;
+	margin-left: 100px;
+	margin-top: 300px;
 
 }
 
+h1:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 21px;
+	color:#73ff00;	
+}
 h1{
 	font-family: Helvetica Neue LT Std;
 	font-size: 21px;
-	color:#F26127;
-	
+	color:darkslategray;	
 }
 
 p{
 	font-family: Helvetica Neue LT Std;
 	font-size: 16px;
 	font-weight: lighter;
-	color: #34495e;
+	color: white;
 }
