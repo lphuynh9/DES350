@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+body{
+	background-color: #000;
+}
+.header{
+	position: fixed;
+	top: 20px;
+}
+
+.dieter{
+	font-family: Helvetica Neue LT Std;
+	font-size: 12px;
+	font-weight: lighter;
+	position: fixed;
+	left: 70%;
+	color: yellowgreen;
+}
+
+p1{
+	top: 0px;
+	left: 100px;
+	margin-left: 25px;
+}
+
+.ten:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 100px;
+	font-weight: bold;
+	color: greenyellow;
+	letter-spacing: -10px;
+}
+.ten{
+	font-family: Helvetica Neue LT Std;
+	font-size: 100px;
+	font-weight: bold;
+	color: #34495e;
+	letter-spacing: -10px;
+}
+
+.title{
+	font-family: Helvetica Neue LT Std;
+	font-size: 21px;
+	font-weight: lighter;
+	color: yellowgreen;
+	position: fixed;
+	left: 115px;
+	top: 50px;
+}
+
+
+.space{
+	margin-bottom: 150px;
+}
+.dot1{
+	height: 25px;
+	width: 25px;
+	background-color: yellowgreen;
+	border-radius: 50%;
+	position: fixed;
+	top: 50px;
+	right: 5px;
+}
+
+.dot2{
+	height: 25px;
+	width: 25px;
+	background-color: yellowgreen;
+	border-radius: 50%;
+	position: fixed;
+	top: 85px;
+	right: 5px;
+}
+
+.linh{
+	font-family: Helvetica Neue LT Std;
+	font-size: 12px;
+	font-weight: lighter;
+	color: yellowgreen;
+	position: fixed;
+	bottom: 25px;
+	left: 200px;
+	
+}
+
+
+.principle:hover{
+	height: 150px;
+	width: 75%;
+	background-color: dimgrey;
+}
+.principle{
+	height: 150px;
+	width: 75%;
+}
+
+
+p2{
+	margin-left: 25px;
+}
+
+.number:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	height: 150px;
+	margin-right: 10px;
+	margin-top: 2px;
+	color: greenyellow;
+}
+.number{
+	font-family: Helvetica Neue LT Std;
+	font-size: 36px;
+	font-weight: bold;
+	float: left;
+	height: 150px;
+	margin-right: 10px;
+	margin-top: 2px;
+	color: #34495e;
+}
+
+.column{
+	width: 35%;
+	float: left;
+	margin-left: 105px;
+}
+
+.column2{
+	margin-left: 75px;
+	margin-top: 200px;
+
+}
+
+h1:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 21px;
+	color:yellowgreen;	
+}
+h1{
+	font-family: Helvetica Neue LT Std;
+	font-size: 21px;
+	color:#34495e;	
+}
+
+p:hover{
+	font-family: Helvetica Neue LT Std;
+	font-size: 16px;
+	font-weight: lighter;
+	color: white;
+}
+p{
+	font-family: Helvetica Neue LT Std;
+	font-size: 16px;
+	font-weight: lighter;
+	color: #34495e;
+}
