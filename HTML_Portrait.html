@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML Portrait</title>
+</head>
+
+<style>
+	
+body {background-color: #bee5c3;}
+		
+	.center{
+		position: absolute;
+		margin: auto;
+		width: 50%;
+        padding: 10px;
+		}
+		
+	.facebase{
+      	width: 300px;
+     	height: 325px;
+      	background: #ffd3b6;
+     	border-radius: 50%;
+		position: absolute;
+		top: 245px;
+		left:360px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		}
+		
+	.faceshadow{
+      	width: 250px;
+     	height: 325px;
+      	background: #edac80;
+     	border-radius: 50%;
+		position: absolute;
+		top: 260px;
+		left:385px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		z-index: -1;
+		}
+		
+	.hairline{
+        width: 0;
+        height: 0;
+		position: absolute;
+		left: 340px;
+		top: 150px;
+        border-left: 115px solid transparent;
+        border-right: 115px solid transparent;
+		border-bottom-left-radius: 50%;
+        border-bottom: 200px solid #FFD3B6;
+		border-bottom-right-radius: 50%;
+		z-index: 1;
+		}
+		
+	.eye1{
+      	width: 60px;
+     	height: 20px;
+      	background: white;
+     	border-radius:50%;
+		position: absolute;
+		float: left;
+		top:412px;
+		left:420px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		z-index: 3;
+		}
+		
+	.eye2{
+      	width: 60px;
+     	height: 20px;
+      	background: white;
+     	border-radius: 50%;
+		position: absolute;
+		float: left;
+		top:412px;
+		left:540px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		z-index: 3;
+		}
+		
+		
+	.lashes1{
+      	width: 66px;
+     	height: 25px;
+      	background: black;
+     	border-radius:50%;
+		position: absolute;
+		float: left;
+		top:405px;
+		left:416px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		z-index: 2;
+		}
+		
+	.lashes2{
+      	width: 66px;
+     	height: 25px;
+      	background: black;
+     	border-radius: 50%;
+		position: absolute;
+		float: left;
+		top:405px;
+		left:540px;
+   		margin-top:-60px;
+   		margin-left:-50px;
+		z-index: 2;
+		}
+		
+	.pupil1{
+		width: 27px;
+     	height: 24px;
+      	background: black;
+		position: absolute;
+		float: left;
+		top:348px;
+		left:388px;
+      	border-radius: 50%;
+		z-index:3;
+		}
+		
+	.pupil2{
+		width: 27px;
+     	height: 24px;
+      	background: black;
+		position: absolute;
+		float: left;
+		top:348px;
+		left:388px;
+		margin-left: 120px;
+      	border-radius: 50%;
+		z-index:3;
+		}
+		
+	
+	.lips1{
+		width: 22px;
+		height: 20px;
+		border-radius: 50%;
+		background: #b0616d;
+		position: absolute;
+		float: left;
+		top: 450px;
+		left: 436px;
+		z-index: 3;
+	}
+	
+	.lips2{
+		width: 22px;
+		height: 20px;
+		border-radius: 50%;
+		background: #b0616d;
+		position: absolute;
+		float: left;
+		margin-left: 10px;
+		top: 450px;
+		left: 444px;
+		z-index: 3;
+	}
+	
+	.lips3{
+		width: 40px;
+		height: 26px;
+		border-radius: 50%;
+		background: #b0616d;
+		position: absolute;
+		float: left;
+		margin-left: 10px;
+		top: 454px;
+		left: 426px;
+		z-index: 3;
+	}
+	.nose{
+	  width: 38px;
+      height: 30px;
+      background: #ffd3b6;
+	  position: absolute;
+	  left: 438px;
+	  top: 395px;
+      border-radius: 50%;
+	  z-index: 3;
+		}
+		
+	.nose2{
+	  width: 38px;
+      height: 32px;
+      background: #edac80;
+	  position: absolute;
+	  left: 438px;
+	  top: 400px;
+      border-radius: 50%;
+	  z-index: 100%;
+		}
+		
+ 	.crescent1{
+		width:250px;
+		height: 450px;
+		background-color: transparent;
+		position: absolute;
+		top:225px;
+		left:325px;
+		right:10px;
+		bottom:0px;
+		box-shadow: 70px -20px 0px 20px #331d0e;
+		border-radius: 50%;
+		z-index: 0;
+ 		}
+		
+	.crescent2{
+		width:250px;
+		height: 450px;
+		background-color: transparent;
+		position: absolute;
+		top:225px;
+		left:335px;
+		right:10px;
+		bottom:0px;
+		box-shadow: -70px -20px 0px 20px #331d0e;
+		border-radius: 50%;
+		z-index: 0;
+ 		}
+		
+	.crescent3{
+		width:330px;
+		height:400px;
+		background-color: transparent;
+		position: absolute;
+		top:220px;
+		left:292px;
+		right:10px;
+		bottom:0px;
+		box-shadow: 0px -50px 0px 20px #331d0e;
+		border-radius: 50%;
+		z-index: 0;
+ 		}
+		
+	.crescent4{
+		width:350px;
+		height:400px;
+		background-color: transparent;
+		position: absolute;
+		top:500px;
+		left:270px;
+		right:10px;
+		bottom:0px;
+		box-shadow: 0px -90px 0px 20px #331d0e;
+		border-radius: 50%;
+		z-index: -2;
+ 		}
+		
+	.leftglass{
+		width: 100px;
+        height: 100px;
+        background: #ffe6eb;
+		position: absolute;
+		float: left;
+		left: 338px;
+		top: 320px;
+        border-radius: 50%;
+		z-index: 3;
+		
+	  transition-timing-function: ease;
+	  transition-duration: 2s;
+	  transition-delay: 0s;
+	  transition-property: all;
+	}
+	
+	.leftglass:hover{
+		width: 100px;
+        height: 100px;
+        background: #ffe6eb;
+		position: absolute;
+		float: left;
+		left: 338px;
+		top: 375px;
+        border-radius: 50%;
+		z-index: 3;
+	}
+	
+	.rightglass{
+		width: 100px;
+        height: 100px;
+        background: #ffe6eb;
+		position: absolute;
+		float: left;
+		margin-left: 136px;
+		left: 340px;
+		top: 320px;
+        border-radius: 50%;
+		z-index: 3;
+		
+	  transition-timing-function: ease;
+	  transition-duration: 2s;
+	  transition-delay: 0s;
+	  transition-property: all;
+	}
+	
+	.rightglass:hover{
+		width: 100px;
+        height: 100px;
+        background: #ffe6eb;
+		position: absolute;
+		float: left;
+		margin-left: 136px;
+		left: 340px;
+		top: 375px;
+        border-radius: 50%;
+		z-index: 3;
+	}
+	
+	.bridge{
+	    width: 38px;
+        height: 32px;
+        background: #c997a1;
+	    position: absolute;
+	    left: 438px;
+	    top: 360px;
+        border-radius: 50%;
+	    z-index: 4;
+	}
+	
+	.bridgeshadow{
+	    width: 38px;
+        height: 30px;
+        background:#ffd3b6;
+	    position: absolute;
+	    left: 438px;
+	    top: 368px;
+        border-radius: 50%;
+	    z-index: 4;
+	}
+
+	.leftshadow{
+		width: 100px;
+        height: 100px;
+        background: #c997a1;
+		position: absolute;
+		float: left;
+		left: 338px;
+		top: 330px;
+        border-radius: 50%;
+		z-index: 2;
+	}
+	
+	.rightshadow{
+		width: 100px;
+        height: 100px;
+        background: #c997a1;
+		position: absolute;
+		float: left;
+		margin-left: 136px;
+		left: 340px;
+		top: 330px;
+        border-radius: 50%;
+		z-index: 2;
+	}
+		
+	</style>
+	
+<body>
+
+	<div class="facebase"></div>
+	
+	<div class="faceshadow"></div>
+	<div class="hairline"></div>
+	
+<div class="hair">
+	 <div class ="crescent1"></div>
+	 <div class ="crescent2"></div>
+	 <div class ="crescent3"></div>
+	 <div class ="crescent4"></div>
+	</div>
+	
+<div class="eyes">
+	<div class="eye1"></div>
+	<div class="eye2"></div>
+	
+	
+	<div class="lashes">
+	<div class="lashes1"></div>
+	<div class="lashes2"></div>
+	</div>
+		
+	<div class="pupils">
+		<div class="pupil1"></div>
+		<div class="pupil2"></div>
+	</div>
+		</div>
+	
+	<div class="nose">
+	</div>
+	<div class="nose2">
+	</div>
+	
+<div class="lips">
+	<div class="lips1"></div>
+	<div class="lips2"></div>
+	<div class="lips3"></div>
+	</div>
+	
+<div class="sunglasses">
+	<div class="leftglass"></div>
+	<div class="rightglass"></div>
+	<div class="bridge"></div>
+	</div>
+	
+<div class="sunglassshadow">
+	<div class="leftshadow"></div>
+	<div class="rightshadow"></div>
+	<div class="bridgeshadow"></div>
+	</div>
+	
+</body>
+</html>
