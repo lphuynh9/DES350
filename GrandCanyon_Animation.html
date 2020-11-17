@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GrandCanyon_Animation</title>
+</head>
+
+	<style>
+		body{
+			background-color:#1a1a1a;
+			margin: 0px;
+			padding: 0px;
+		}
+		.card{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50% -50%);
+			width: 40%;
+			height: 90vh;
+			background: url("GrandCanyon_Keyframe.jpg") no-repeat center;
+			background-size: contain;
+		}
+		
+		.card: hover{
+			background: url("GrandCanyon_GIF.gif") no-repeat center;
+			background-size: contain;
+		}
+		
+		#preload{
+			background: url("GrandCanyon_GIF.gif") no-repeat -9999px -9999px;
+		}
+	
+	</style>
+	
+<body>
+	
+	<div class="card"></div>
+	
+</body>
+</html>
