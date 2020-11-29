@@ -16,20 +16,20 @@ strong{
 	font-size: 16px;
 	font-weight: lighter;
 	width: 100%;
-	height: 500px;
+	height: 520px;
 	color: #b19234;
 	margin-top: 15px;
 	margin-left: 2px;
 	letter-spacing: 1px;
-	border-right: 4px solid #A9BAFF;
+	border-right: 3px solid #A9BAFF;
 	border-collapse: separate;
-	border-spacing: 5px;
+	border-spacing: 4px;
 }
 
 .column1{
     float:left;
 	width: 35%;
-	margin-left: 4px;
+	margin-left: 2px;
 }
 
 .column2{
